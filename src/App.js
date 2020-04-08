@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { CardList } from './components/card-list/card-list.component';
 import { SearchBox } from './components/search-box/search-box.component';
+import axios from 'axios';
 
 import './App.css';
 import './components/custom-button/custom-button.styles.scss';
@@ -17,8 +18,8 @@ class App extends Component {
   }
 
   componentDidUpdate() { 
-    fetch(`https://cors-anywhere.herokuapp.com/https://itunes.apple.com/search?term=${this.state.searchTerm}`)
-      .then(response => response.json())
+    axios.get(`https://cors-anywhere.herokuapp.com/https://itunes.apple.com/search?term=${this.state.searchTerm}`)
+      .then(response => response.data)
       .then(users => this.setState({ tracks: users.results })
     );
   }
@@ -35,11 +36,9 @@ class App extends Component {
   render() {
     console.log(this.state.callApi)
     if(this.state.callApi){
-      const { tracks, searchTerm } = this.state;
+      const { tracks } = this.state;
       console.log(tracks);
-      const filteredtracks = tracks.filter(track =>
-        track.artistName.includes(searchTerm.toLowerCase())
-      );
+      
       return (
         <div className='App'>
           <h1>Itunes Tracks</h1>
