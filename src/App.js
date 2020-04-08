@@ -17,8 +17,8 @@ class App extends Component {
   }
 
   componentDidUpdate() {
-    const proxy = 'https://crossorigin.me/';
-    fetch(`${proxy}https://itunes.apple.com/search?term=${this.state.searchTerm}`)
+    
+    fetch(`https://crossorigin.me/https://itunes.apple.com/search?term=${this.state.searchTerm}`)
       .then(response => response.json())
       .then(users => this.setState({ tracks: users.results })
     );
