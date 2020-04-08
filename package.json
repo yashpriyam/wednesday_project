@@ -2,7 +2,7 @@
   "name": "itunes-tracks",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yashpriyam.github.io/wednesday_project",
+  "homepage": "https://yashpriyam.github.io/wednesday_project/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.13.1",
