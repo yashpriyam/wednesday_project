@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/wednesday_project/static/css/main.47a787d5.chunk.css",
+    "main.js": "/wednesday_project/static/js/main.f415bf21.chunk.js",
+    "main.js.map": "/wednesday_project/static/js/main.f415bf21.chunk.js.map",
+    "runtime~main.js": "/wednesday_project/static/js/runtime~main.22ac4f87.js",
+    "runtime~main.js.map": "/wednesday_project/static/js/runtime~main.22ac4f87.js.map",
+    "static/js/2.b67fbdca.chunk.js": "/wednesday_project/static/js/2.b67fbdca.chunk.js",
+    "static/js/2.b67fbdca.chunk.js.map": "/wednesday_project/static/js/2.b67fbdca.chunk.js.map",
+    "index.html": "/wednesday_project/index.html",
+    "precache-manifest.7f29fa4bcd200bf18f6a99df016214df.js": "/wednesday_project/precache-manifest.7f29fa4bcd200bf18f6a99df016214df.js",
+    "service-worker.js": "/wednesday_project/service-worker.js",
+    "static/css/main.47a787d5.chunk.css.map": "/wednesday_project/static/css/main.47a787d5.chunk.css.map"
+  }
+}
