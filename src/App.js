@@ -16,8 +16,7 @@ class App extends Component {
     };
   }
 
-  componentDidUpdate() {
-    
+  componentDidUpdate() { 
     fetch(`https://cors-anywhere.herokuapp.com/https://itunes.apple.com/search?term=${this.state.searchTerm}`)
       .then(response => response.json())
       .then(users => this.setState({ tracks: users.results })
