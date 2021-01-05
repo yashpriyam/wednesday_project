@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://yashpriyam.github.io/wednesday_project/",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "gh-pages": "^2.0.1",
     "node-sass": "^4.13.1",
     "react": "^16.8.6",
